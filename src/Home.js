@@ -110,7 +110,7 @@ function Home() {
     // }
     // );
     
-    // Use this URL, no VPN needed
+    // Use this URL, no VPN needed!!!!
     const response = await fetch(`https://yycwfsoxsb.execute-api.ap-northeast-1.amazonaws.com/init?refId=${refId}`)
     if (!response.ok) {
       console.log("Error");
